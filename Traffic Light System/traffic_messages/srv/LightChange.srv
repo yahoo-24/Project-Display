@@ -1,0 +1,4 @@
+int64 direction
+int64 type
+---
+bool[] states

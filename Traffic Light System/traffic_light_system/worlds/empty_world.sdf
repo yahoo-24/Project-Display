@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="default">
+
+    <!-- Enable ROS-GZ Bridge -->
+    <plugin name="gz_ros_init" filename="libgz_ros_init.so">
+      <ros>
+        <!-- Optional: Remap ROS namespace -->
+        <namespace>/</namespace>
+      </ros>
+    </plugin>
+
+    <plugin name="gz_ros_factory" filename="libgz_ros_factory.so"/>
+    <plugin name="gz_ros_bridge" filename="libgz_ros_bridge.so"/>
+
+  </world>
+</sdf>

@@ -1,0 +1,6 @@
+/traffic_server:
+  ros__parameters:
+    pedestrian_wait_time: 15
+    total_time_split: 20
+    pedestrian_duration: 7.0
+    emergency_duration: 10.0
