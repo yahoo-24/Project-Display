@@ -26,4 +26,43 @@ The project was made with Abubakar Bakari and Wassim Bouhamadi as part of the EL
 - ***Battery Management***:
   - ***Display Battery***: Presents a visual display of the battery.
   - ***Charge Battery***: Presents a visual display of the battery charging.
-  - ***Discharge Battery***: Presents a visual display of the battery discharging.
+ 
+ ***Discharge Battery***: Presents a visual display of the battery discharging.
+
+## Built With
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="Alt text" width="10%" height="10%">
+
+## 🚀 Getting Started
+
+Follow these steps to clone the repository, build the project, and run the executable.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yahoo-24/Project-Display.git
+cd "Project-Display/C++ Command Line Project"
+```
+### 2. Build the project
+Make sure you have make and a C++ compiler (e.g. g++) installed.
+Change the path in util.h to where the text files you want to use are present.
+Then run:
+```bash
+make
+```
+### 3. Run the programme
+```bash
+main.exe
+```
+or
+```bash
+./main.exe
+```
+or
+```bash
+./main
+```
+### Notes
+- You may need to adjust the Makefile if your compiler or file structure is different.
+- If you encounter permission issues on Linux/macOS, you can make the executable runnable with:
+```
+chmod +x main.exe
+```
