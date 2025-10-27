@@ -18,7 +18,7 @@ inline void list_files() {
     // Therefore, escaped the enclosing quotes using
     // backslash
     string path(
-        "\"C:\\Users\\yahia\\OneDrive\\Desktop\\ELEC2645\\C++ Project\\*.txt\"");
+        "\"C:\\Users\\path\\to\\text\\files\\*.txt\"");
  
     // The command which would do the file listing
     // A space is added at the end of the command
@@ -36,5 +36,6 @@ inline void list_files() {
     // system function
     system(final_command);
 }
+
 
 #endif
